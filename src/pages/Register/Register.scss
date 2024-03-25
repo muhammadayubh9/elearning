@@ -1,0 +1,14 @@
+input{
+    outline: none;
+}
+
+.password_hover{
+    width: 100%;
+    position: relative;
+    i{
+        right: 15px;
+        top: 12px;
+
+        position: absolute;
+    }
+}

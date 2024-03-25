@@ -1,0 +1,47 @@
+.member_card_hover{
+  width: 100%;
+
+}
+
+.members_card{
+  margin: 15px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0 15px #26323814;
+    padding: 20px;
+    gap: 15px;
+    border-radius: 15px;
+    height: 395px;
+    p {
+      font-family: Poppins;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      font-family: Poppins;
+      width: 329px;
+      height: 108px ;
+      color: #696984;
+
+      
+      
+
+    }
+  }
+
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--left{
+    background-color: #49bbbd;
+    margin-left: -50px;
+  }
+
+  .react-multiple-carousel__arrow.react-multiple-carousel__arrow--right{
+    background-color: #49bbbd;
+    margin-right: -53px;
+  }
+
+  .react-multiple-carousel__arrow:hover{
+    background-color: #49bbbd;
+  }

@@ -1,0 +1,176 @@
+.literature_header_hover {
+    width: 100%;
+    padding: 20px 120px;
+
+    .literature_header {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+        padding: 50px;
+        border-radius: 20px;
+        background-image: url(https://s3-alpha-sig.figma.com/img/4d60/37c9/0bb1135f6b589165ed30ee1ab58ddac4?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FEozNqrmJ8M7guSbmhbyzLJU4G8aLfB5SzDWgldzXf3fTyBQHxUcLiL15eOsOdM3gbz~fh3EJn09XtneEwfBnFts3hFbGOrnU33LT7yxu8UoE1WuXDo~ehjGVwZJo~Oo~yq6VEke-LxtnuPWEkKNdWfRoNrxjkgD5yZddjFzTOgESfYaxA7sMASKPMbYKkELEvQKQp~W76qaOqdfPZuU3BHO7yl0FO3bTJtpYnvX7Hkr5sv~hmZ4djA13FLw6UmW-6B~jUFEuPXZTzVgl3hM5MOQDLaJDcz9q4iYMJw~PrlxAmDCGV5xUGK8a-OgutV56p3LUnjXVhuoc1tDx0boeA__);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        .header_img {
+            width: 340px;
+            height: 340px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        .header_right {
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 20px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 30px;
+
+            .space_betwen {
+                h2 {
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: black;
+                }
+
+                button {
+                    font-size: 20px;
+                    font-weight: 600;
+                    background-color: #49bbbd;
+                    color: white;
+                    padding: 12px 18px;
+                    border-radius: 12px;
+                    border: none;
+                }
+            }
+
+            p {
+                color: #2D3436B2;
+                font-size: 18px;
+                font-weight: 400;
+            }
+
+            span {
+                font-size: 25px;
+                font-weight: 400;
+                color: #2D3436;
+            }
+
+            .gap5 {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                i{
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    
+                }
+                .bi-play{
+                    border-radius: 50%;
+                    border: 1px solid #2D3436CC;
+                }
+            }
+
+            .social_icons {
+                display: flex;
+                gap: 20px;
+                i {
+                    background-color: #49BBBD;
+                    width: 30px;
+                    height: 30px;
+                    color: white;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+.cat_btns_hover{
+    padding: 70px 120px;
+        width: 100%;
+        display: flex;
+        gap: 20px;
+        button{
+            border-radius: 12px;
+            border: none;
+            outline: none;
+            padding: 16px 40px;
+            font-size: 20px;
+            font-weight: 700;
+            color: rgba(0,0,0,0.4);
+            background: #0000001A;
+        }
+        button.active{
+            color: white;
+            background-color: #49bbbd;
+        }
+}
+.book{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px rgb(174, 174, 174);
+    padding: 20px;
+    .book_img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+    .book_data{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        h3{
+            color: #000000CC;
+            font-size: 25px;
+            font-weight: 400;
+        }
+        h4{
+            color: #49BBBD;
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+}
+
+.pg_butons_hover{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    button{
+        width: 70px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: none;
+    }
+    button.active{
+        background-color: #49BBBD;
+    }
+    button.slider_comp{
+        background-color: #49BBBD33;
+            i{
+                width: 100%;
+                height: 100%;
+                display: grid;
+                place-items: center;
+                color: #49BBBD;
+                font-size: 20px;
+            }
+    }
+}

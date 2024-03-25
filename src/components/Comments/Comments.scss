@@ -1,0 +1,60 @@
+.mySwiper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.coment_hover{
+    width: 100%;
+    height: 100%;
+    .comment_user_img{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 510px;
+        border-radius: 10px;
+        object-fit: cover;
+    }
+    .coment{
+        width: 80%;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: white;
+        border-left: 5px solid #F67766;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        h4{
+            padding:  0 10px;
+            border-left: 1px solid #BDBDD1;
+            font-size: 17px;
+            font-weight: 400;
+        }
+        .comment_user{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .comment_rate{
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                gap: 5px;
+                .rate_img_hover{
+                    display: flex;
+                    align-items: end;
+                    gap: 5px;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login_page {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    padding: 70px;
+}
+
+.login_img_hover {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://s3-alpha-sig.figma.com/img/3d22/12c2/6d48440cd871897408ac64c61604bb17?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V1bPzqcMGD6jLHDsdCSfqmYPACGgDS6Pe5FVkrKPTCyhOOwbEczmQo65WkMVrDRIi-2O5DueqdVT3Y-DxHM3u9HVd09A4bIY-i~568woxP10Aew2SLS7spvhJj4lfdgN0SWNr0vF93w9tSfakf~pOlU-QH0fYSD0Hd~xwlkv6zaFCxt2lKCXQ4mQsx2AoUUeS~R6I5B8d28cZ4bnoI~hGsmdm9gRdhRxZ5CHyO~K1uLEzDSh0f3KbKfQGaWMt-~UffrVZ6ic4K9EQTOycstrrnwLrr56SahSSv26TrDB7fpnKsa7N9dfgLM2v9HZT~nRzSFoV4OdYM20T-cRu4KlOA__);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: end;
+    padding: 30px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 20px;
+    h2 {
+        font-size: 37px;
+        color: #fff;
+    }
+
+    p {
+        font-size: 25px;
+        color: #fff;
+    }
+}
+
+.reg_login_form_hover {
+    width: 100%;
+    height: 100%;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    h3{
+        font-size: 16px;
+    }
+    .coment_reg{
+        line-height: 24px;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .reg_log_form{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        input.inp{
+            width: 100%;
+            height: 54px;
+            border: 1px solid #49BBBD;
+            border-radius: 80px;
+            padding-left: 20px;
+        }
+        .lg_btn_hover{
+            width: 100%;
+            display: flex;
+            justify-content: end;
+            margin-top: 50px;
+            .login_btn{
+                padding: 12px 100px;
+                background-color: #49BBBD;
+                border: none;
+                border-radius: 20px;
+                color: white;
+                font-size: 16px;
+                font-weight: 400;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.reg_log_btns_hover {
+    border-radius: 33px;
+    background: #49BBBD99;
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    .reg_log_btn{
+        padding: 10px 40px;
+        color: white;
+        border-radius: 30px;
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .reg_log_btn.active{
+        background: #49BBBD;
+    }
+
+}
+
+.remember_me{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .jcsb_span{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        .checkbox{
+            width: 15px;
+            height: 15px;
+        }
+    }
+    .fpassword{
+        font-size: 12px;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width : 960px) {
+    .login_img_hover{
+        display: none;
+    }
+    .login_page{
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+}

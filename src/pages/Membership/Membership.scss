@@ -1,0 +1,240 @@
+.member__hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px;
+  gap: 50px;
+
+  h2 {
+    font-size: 64px;
+    color: #49bbbd;
+  }
+
+  .membering_cards_hover {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+  }
+
+  .membering_card:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .membering_card {
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+
+    .membering_type {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      a {
+        
+        text-decoration: none;
+        color: rgb(55, 53, 53);
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 800;
+      }
+      font-size: 18px;
+      font-weight: 700;
+      color: #49bbbd;
+    }
+
+    span {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .membering_title {
+      width: 100%;
+      display: flex;
+      align-items: end;
+      gap: 20px;
+      font-size: 48px;
+      font-weight: 700;
+
+      span {
+        font-size: 12px;
+        font-weight: 800;
+        margin-bottom: 10px;
+      }
+    }
+
+    .types_hover {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      .types {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+
+        text {
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    button{
+      padding: 12px;
+      border: 1px solid rgb(115, 22, 139);
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      width: 90px;
+      height: 32px;
+      padding-left: 20px;
+      border-radius:15px;
+    }
+
+    a {
+      border: 1px solid #adadad;
+      font-size: 32px;
+      color: #49bbbd;
+      background-color: transparent;
+      border-radius: 18px;
+      padding: 12px 24px;
+      text-align: center;
+    }
+
+    a:hover {
+      border: 1px solid #adadad;
+      font-size: 32px;
+      color: white;
+      background-color: #49bbbd;
+      font-weight: 600;
+      border-radius: 18px;
+      padding: 12px 24px;
+    }
+  }
+}
+
+.learing_about {
+  width: 100%;
+  padding: 70px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  h2 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .abouts_hover {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .about {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 15px 0;
+      border-bottom: 1px solid #696984;
+      .first {
+        position: relative;
+        display: flex;
+        gap: 20px;
+        span {
+          width: 30px;
+          height: 30px;
+          background-color: #55efc4;
+          border-radius: 50%;
+        }
+        h4 {
+          font-size: 18px;
+          font-weight: 400;
+          color: #2d3436;
+        }
+        i {
+          position: absolute;
+          right: 0;
+        }
+      }
+      h5 {
+        padding-left: 50px;
+        font-size: 14px;
+        font-weight: 400;
+        color: #696984;
+      }
+    }
+  }
+}
+
+.members_hover {
+  display: flex;
+  flex-direction: column;
+  padding: 70px 120px;
+  gap: 20px;
+  background-color: #9dccff;
+  position: relative;
+  padding-bottom: 120px;
+}
+
+.member__download {
+  width: calc(100% - 240px);
+  margin: auto;
+  margin-top: -100px;
+  z-index: 1;
+  position: relative;
+  background: #252641;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(234, 231, 226);
+  padding: 50px;
+
+  border-radius: 37px;
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    width: 254px;
+    height: 63px;
+    border-radius: 12px;
+    background: #29b9e7;
+    padding-left: 65px;
+
+    p {
+      padding-left: 9px;
+    }
+  }
+
+  .button2__mc {
+    margin-left: 20px;
+    background: #49bbbd;
+
+    a {
+      display: flex;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      width: 254px;
+      height: 63px;
+      border-radius: 12px;
+      background: #29b9e7;
+      padding-left: 65px;
+
+      p {
+        padding-left: 9px;
+      }
+    }
+  }
+}

@@ -1,0 +1,284 @@
+.everything_you_can_do{
+    padding: 70px 120px;
+}
+
+.onLesson{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.course_detail_hover{
+    width: 100%;
+    padding: 70px 120px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 100px;
+    .course_left{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+        width: 100%;
+        .left_top{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            button{
+                border-radius: 12px;
+                border: none;
+                outline: none;
+                padding: 18px 40px;
+                font-size: 20px;
+                font-weight: 700;
+                color: rgba(0,0,0,0.4);
+                background: #0000001A;
+            }
+            button.active{
+                color: white;
+                background-color: #49bbbd;
+            }
+        }
+        .left_bottom{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 20px;
+            background-color: #9DCCFF4D;
+            border-radius: 20px;
+            gap: 50px;
+            .corse_rate{
+                width: 100%;
+                display: grid;
+                gap: 20px;
+                grid-template-columns: 1fr 2fr;
+                .rate_words_hover{
+                    gap: 30px;
+                    padding: 20px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: white;
+                    border-radius: 20px;
+                    h2{
+                        font-size: 30px;
+                        font-weight: 600;
+                        color: rgba(0, 0, 0, 0.5);
+                    }
+                    h4{
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: rgba(0, 0, 0, 0.5);
+                    }
+                    .rate_img_hover{
+                        display: flex;
+                        img{
+                            width: 32px;
+                        }
+                    }
+                }
+                .total_rates_hover{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .total_rate{
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: 1fr 5fr;
+                        align-items: center;
+                        gap: 30px;
+                        p{
+                            font-size: 20px;
+                            font-weight: 400;
+                            color: rgba(0, 0, 0, 0.5);
+                        }
+                        span{
+                            width: 100%;
+                            height: 5px;
+                            background-color: #D9D9D9;
+                            border-radius: 2px;
+                            div{
+                                width: 50%;
+                                height: 100%;
+                                background-color: #49BBBD;
+                                border-radius: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+            .course_comment_hover{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                border-bottom: 1px solid #696984;
+                padding: 10px 0;
+                .jcsb{
+                    .user_and_rate{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        .rate_user_img{
+                            width: 60px;
+                            height: 60px;
+                            object-fit: cover;
+                            border-radius: 50%;
+                            background-color: #D9D9D9;
+                        }
+                        .username_and_rate{
+                            display: flex;
+                            flex-direction: column;
+                            h5{
+                                font-size: 18px;
+                                font-weight: 500;
+                            }
+                            .comment_rate{
+                                display: flex;
+                                img{
+                                    width: 32px;
+                                }
+                            }
+                        }
+                    }
+                    .diese{
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        color: #696984;
+                        font-size: 14px;
+                    }
+                }
+                p{
+                    font-size: 20px;
+                    color: #696984;
+                    font-weight: 400;
+                    line-height: 36px;
+                }
+            }
+            .course_comment_hover:nth-last-child(1){
+                border: none;
+            }
+        }
+    }
+    .course_right_hover{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        .course_right{
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            position: absolute;
+            background-color: white;
+            top: -350px;
+            border-radius: 20px;
+            align-items: center;
+            display: grid;
+            gap: 25px;
+            .right_img{
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+            .jcsb{
+                h1{
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+                h3{
+                    font-size: 25px;
+                    color: #00000080;
+                    text-decoration: line-through;
+                    font-weight: 600;
+                }
+                h4{
+                    font-size: 25px;
+                    color: #00000080;
+                    font-weight: 600;
+                }
+            }
+            .time_to_off{
+                text-align: center;
+                color: #49bbbd;
+                font-size: 20px;
+                font-weight: 600;
+            }
+            .buy_now_link{
+                text-align: center;
+                width: 100%;
+                padding: 12px;
+                color: white;
+                background-color: #49BBBD;
+                border: none;
+                border-radius: 12px;
+            }
+            .this_course_included{
+                border-top: 1px solid #696984;
+                padding: 20px 0;
+                gap: 20px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                .icludes_hover{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    .include{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        p{
+                            font-size: 14px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+            .training{
+                width: 100%;
+                display: flex;
+                border-top: 1px solid #696984;
+                flex-direction: column;
+                padding: 20px 0;
+                gap: 20px;
+                p{
+                    font-size: 14px;
+                    font-weight: 400;
+                }
+            }
+            .share_this_r{
+                border-top: 1px solid #696984;
+                width: 100%;
+                display: flex;
+                gap: 20px;
+                padding: 20px 0;
+                flex-direction: column;
+                .social_icons{
+                    display: flex;
+                    gap: 20px;
+                    a{
+                        text-decoration: none;
+                        i{
+                            background-color: #696984;
+                            border-radius: 50%;
+                            width: 30px;
+                            height: 30px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            color: white;
+                        }
+                        .bi-youtube{
+                            background-color: red;
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

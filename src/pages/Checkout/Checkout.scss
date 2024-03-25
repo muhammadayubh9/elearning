@@ -1,0 +1,280 @@
+.checkout__page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards{
+  width: 100%;
+  padding: 50px 120px;
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  gap: 20px;
+}
+
+.checkout{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  box-shadow: 0 0 15px rgb(230, 230, 230);
+  border-radius: 15px;
+  padding: 40px;
+  h1{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
+
+
+
+.imgs{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.mastercard_hover{
+  width: 150px;
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 5px;
+  img{
+    width: 50px;
+  }
+}
+
+.form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  label{
+    font-size: 18px;
+    font-weight: 600;
+    color: #5B5B5B;
+  }
+  .card_inputs{
+    width: 100%;
+    padding: 15px 15px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    outline: 1px solid #D9D9D9;
+  }
+  .other__input{
+    display: flex;
+    gap: 20px;
+    .div__input{
+      width: 100%;
+    }
+    p{
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+    }
+  }
+  span{
+    display: flex;
+    gap: 5px;
+    color: gray;
+  }
+  .btn{
+    width: 100%;
+    padding: 23px;
+    background-color: #49BBBD;
+    border: none;
+    border-radius: 12px;
+  }
+}
+
+
+.summary{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  background-color: #dfeeff;
+  border-radius: 20px;
+  gap: 20px;
+  .div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+    img{
+      width: 100%;
+    }
+    .div__text{
+      width: 100%;
+    }
+    p{
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32.4px;
+    }
+    span{
+      color: gray;
+      display: block;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 32.4px;
+    }
+    h1{
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 43.2px;
+    }
+
+  }
+}
+
+.subtotal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coupon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tax{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.total{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sales{
+  width: 100%;
+  padding: 50px 120px;
+}
+
+section{
+  .section__text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      color: #49BBBD;
+      cursor: pointer;
+    }
+  }
+}
+
+.section__cards{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.pr_card{
+  width: 30%;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url('../../assets/img/Checkout/notebook.png');
+  padding: 40px;
+  button{
+    background-color: #49BBBD;
+    color: white;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  h1{
+    color: white;
+    margin-top: 50px;
+  }
+  p{
+    max-width: 359px;
+    color: white;
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+
+.card2{
+  width: 30%;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url('../../assets/img/Checkout/cardGirl.png');
+  padding: 40px;
+  button{
+    background-color: #49BBBD;
+    color: white;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  h1{
+    color: white;
+    margin-top: 50px;
+  }
+  p{
+    max-width: 359px;
+    color: white;
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
+
+.card3{
+  width: 30%;
+  background-repeat: no-repeat;
+  height: 500px;
+  background-image: url('../../assets/img/Checkout/cat.png');
+  padding: 40px;
+  button{
+    background-color: #49BBBD;
+    color: white;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+  }
+  h1{
+    color: white;
+    margin-top: 50px;
+  }
+  p{
+    max-width: 359px;
+    color: white;
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+}

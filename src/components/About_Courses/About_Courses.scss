@@ -1,0 +1,118 @@
+*{
+    transition: 0.5s linear;
+}
+
+.explore_course{
+    .about_courses_hover{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .see_all_hover{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h4{
+                font-weight: 700;
+                font-size: 28px;
+                display: flex;
+                gap: 15px;
+            }
+            a{
+                display: flex;
+                gap: 10px;
+                text-decoration: none;
+                color: #00CBB8;
+                font-size: 24px;
+                font-weight: 500;
+            }
+        }
+        .about_courses{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            padding-bottom: 30px;
+            gap: 25px;
+            .about_course{
+                width: 80px;
+                height: 350px;
+                padding: 15px 12px;
+                background-color: white;
+                border-radius: 24px;
+                transform: rotate(-10deg);
+                .course_hover{
+                    width: 100%;
+                    height: 100%;
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 12px;
+                    h4{
+                        width: 300px;
+                        text-align: center;
+                        transform: rotate(90deg);
+                    }
+                }
+            }
+            .about_course.active{
+                width: 100%;
+                margin: 0 25px;
+                transform: rotate(0);
+                display: grid;
+                grid-template-columns: 0.8fr 1fr;
+                gap: 20px;
+                .course_img{
+                    width: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                    height: 100%;
+                }
+                .course_right{
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    .rate_price{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        .rate{
+                            display: flex;
+                            align-items: center;
+                            gap: 8px;
+                            img{
+                                width: 32px;
+                            }
+                        }
+                    }
+                    .explore_btn{
+                        width: 100%;
+                        padding: 12px;
+                        background-color: transparent;
+                        color: #00CBB8;
+                        border-radius: 12px;
+                        border: 1px solid #00CBB8;
+                    }
+                }
+            }
+
+        }
+        .bottom{
+            width: 100%;
+            height: 80px;
+            // background-color: #000000;
+            opacity: 0.05;
+            border-radius: 30px;
+            position: absolute;
+            bottom: 0px;
+            z-index: 0;
+            
+        }
+    }
+}
+
+a{
+    text-decoration: none;
+}

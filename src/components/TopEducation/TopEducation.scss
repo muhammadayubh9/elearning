@@ -1,0 +1,31 @@
+.educates{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    .educate{
+        *{
+            color: white;
+        }
+        width: 100%;
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 20px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        .precent{
+            padding: 20px 12px;
+            background-color: #49bbbd;
+            border-radius: 15px;
+            h2{
+                font-size: 50px;
+                font-weight: 700;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,72 @@
+header{
+    background-color: #49bbbd;
+}
+.nav{
+    padding: 15px 120px;
+    background-color: #49bbbd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav.nav_logined{
+    background-color: white;
+}
+
+.nav__item .header_links{
+    text-decoration: none;
+    color: white;
+}
+
+.nav.nav_logined ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav__item{
+    margin-left: 70px;
+}
+
+.sign__up{
+    padding: 10px 20px;
+    border-radius: 80px;
+    border: none;
+    background-color:  #ffffff4d;
+    text-decoration: none;
+    color: white;
+}
+
+.log__in{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 80px;
+    padding: 10px 20px;
+    border: none;
+    color: black;
+}
+
+.user_profile_button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    img{
+        height: 50px;
+        object-fit: cover;
+        border-radius: 50%;
+        width: 50px;
+    }
+}
